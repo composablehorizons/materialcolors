@@ -2,7 +2,7 @@
 
 All Material Colors easily accessible from Jetpack Compose.
 
-## Instalation
+## Installation
 
 ```groovy
 repositories {
@@ -18,7 +18,6 @@ dependencies {
 You can use it to setup your theme colors: 
 
 ```kotlin
-@Composable
 @Composable
 fun AppTheme(
     content: @Composable () -> Unit

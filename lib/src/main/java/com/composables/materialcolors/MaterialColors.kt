@@ -2,6 +2,9 @@ package com.composables.materialcolors
 
 import androidx.compose.ui.graphics.Color
 
+/**
+ * Returns the [Color] for the given shade of the [ColorPalette].
+ */
 operator fun ColorPalette.get(shade: Int): Color {
     return when (shade) {
         50 -> this.`50`

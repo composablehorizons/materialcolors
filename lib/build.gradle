@@ -15,7 +15,7 @@ apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
 
 android {
     namespace 'com.composables.materialcolors'
-    compileSdk 33
+    compileSdk androidCompileSdkVersion
 
     defaultConfig {
         minSdkVersion androidMinSdkVersion

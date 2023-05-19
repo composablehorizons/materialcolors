@@ -43,7 +43,7 @@ afterEvaluate {
                     url = 'https://' + GITHUB_URL
                     licenses {
                         license {
-                            name = 'ContactStore License'
+                            name = 'MaterialColors License'
                             url = 'https://' + GITHUB_URL + '/blob/main/LICENSE'
                         }
                     }

@@ -2,11 +2,11 @@
 
 A little utility that brings all Material Colors from the 2014 pallet to your Jetpack Compose project.
 
-## Why does this exist
+## A richer selection of colors
 
-I was tired of copy-pasting new colors every time I needed a new color for my new projects.
+The `Colors` class that comes with Jetpack Compose provides a few default colors but they are limited and not very exciting.
 
-So instead of copy-pasting, it is now a dependency instead.
+`MaterialColors` provides a richer set of colors that you can use in your project. The colors come from the Material Design 2014 pallete.
 
 ## Installation
 
@@ -19,14 +19,15 @@ dependencies {
 }
 ```
 
-## A richer selection of colors
+## Quick start
 
-The `Colors` class that comes with Jetpack Compose provides a few default colors but they are limited and not very exciting.
-
-`MaterialColors` provides a richer set of colors that you can use in your project:
+Use the `MaterialColors` object, along with the color and shade you need:
 
 ```kotlin
 Text("Hello world!", color = MaterialColors.Gray[900])
+```
+```kotlin
+Box(modifier = Modifier.background(MaterialColors.Amber[400]).clip(CircleShape))
 ```
 
 ## Should I use this to create my color scheme? 
@@ -54,8 +55,6 @@ fun AppTheme(
 }
 ```
 
-## Looking for Jetpack Compose components?
-
-Check out [Composables](https://www.composables.com/components) for a list of all official Jetpack Compose components and production ready components for your next big idea.
+## Author
 
 Made by Alex Styl ([@alexstyl](https://twitter.com/alexstyl)).

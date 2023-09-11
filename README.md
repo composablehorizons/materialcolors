@@ -1,5 +1,8 @@
 # Material Colors
 
+![og-colors](https://github.com/Composables-co/materialcolors/assets/1665273/a15a0cef-7534-4db4-81da-2ab39d9528b7)
+
+
 A little utility that brings all Material Colors from the 2014 pallet to your Jetpack Compose project.
 
 ## A richer selection of colors
